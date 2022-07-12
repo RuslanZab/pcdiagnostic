@@ -67,7 +67,7 @@ namespace pcdiagnostic
             try
             {
                 BatteryInformation cap = BatteryInfo.GetBatteryInformation();
-                batteryLabel.Text = (Convert.ToDouble(cap.FullChargeCapacity) / Convert.ToDouble(cap.DesignedMaxCapacity) * 100).ToString() + "%";
+                batteryLabel.Text = (Convert.ToDouble(cap.FullChargeCapacity) / Convert.ToDouble(cap.DesignedMaxCapacity) * 100).ToString("#.#") + "%";
             }
             catch (System.Exception e)
             {
@@ -127,7 +127,7 @@ namespace pcdiagnostic
                 Wlan.WlanAvailableNetwork[] networks = wlanIface.GetAvailableNetworkList(0);
                 foreach (Wlan.WlanAvailableNetwork network in networks)
                 {
-                    if (GetStringForSSID(network.dot11Ssid) == "TP-Link_AEC1-5G")
+                    if (GetStringForSSID(network.dot11Ssid) == "NETGEAR26-5G")
                     {
                         
                         string ssid = "NETGEAR26-5G";
@@ -178,6 +178,8 @@ namespace pcdiagnostic
             CheckNetworkStatus();
 
             backgroundWorker1.RunWorkerAsync();
+
+           
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -237,11 +239,12 @@ namespace pcdiagnostic
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            ManagementObjectSearcher myWindowsObject = new ManagementObjectSearcher("select * from SoftwareLicensingProduct");
+            ManagementObjectSearcher myWindowsObject = new ManagementObjectSearcher("select * from SoftwareLicensingProduct WHERE LicenseStatus = 1");
             using (ManagementObjectCollection obj = myWindowsObject.Get())
             {
                 e.Result = obj.Count > 0;
             }
+            
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
