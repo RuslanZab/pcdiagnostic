@@ -171,6 +171,12 @@
             this.panelOemtilde = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
+            this.panelMouseLeft = new System.Windows.Forms.Panel();
+            this.panelMouseRight = new System.Windows.Forms.Panel();
+            this.panelMouseMid = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelF12.SuspendLayout();
             this.panelF8.SuspendLayout();
             this.panelF11.SuspendLayout();
@@ -242,6 +248,9 @@
             this.panelD2.SuspendLayout();
             this.panelD1.SuspendLayout();
             this.panelOemtilde.SuspendLayout();
+            this.panelMouseLeft.SuspendLayout();
+            this.panelMouseRight.SuspendLayout();
+            this.panelMouseMid.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelF12
@@ -1462,12 +1471,66 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // panelMouseLeft
+            // 
+            this.panelMouseLeft.Controls.Add(this.label1);
+            this.panelMouseLeft.Location = new System.Drawing.Point(154, 317);
+            this.panelMouseLeft.Name = "panelMouseLeft";
+            this.panelMouseLeft.Size = new System.Drawing.Size(78, 24);
+            this.panelMouseLeft.TabIndex = 138;
+            // 
+            // panelMouseRight
+            // 
+            this.panelMouseRight.Controls.Add(this.label3);
+            this.panelMouseRight.Location = new System.Drawing.Point(279, 317);
+            this.panelMouseRight.Name = "panelMouseRight";
+            this.panelMouseRight.Size = new System.Drawing.Size(78, 24);
+            this.panelMouseRight.TabIndex = 139;
+            // 
+            // panelMouseMid
+            // 
+            this.panelMouseMid.Controls.Add(this.label2);
+            this.panelMouseMid.Location = new System.Drawing.Point(238, 317);
+            this.panelMouseMid.Name = "panelMouseMid";
+            this.panelMouseMid.Size = new System.Drawing.Size(35, 24);
+            this.panelMouseMid.TabIndex = 140;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Left";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(24, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mid";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(23, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Right";
+            // 
             // KeyboardTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 319);
+            this.ClientSize = new System.Drawing.Size(555, 376);
             this.ControlBox = false;
+            this.Controls.Add(this.panelMouseMid);
+            this.Controls.Add(this.panelMouseRight);
+            this.Controls.Add(this.panelMouseLeft);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.panelF12);
             this.Controls.Add(this.panelF8);
@@ -1544,6 +1607,8 @@
             this.Text = "KeyboardTest";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyboardTest_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyboardTest_KeyUp);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.KeyboardTest_MouseDown);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.KeyboardTest_MouseUp);
             this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.KeyboardTest_PreviewKeyDown);
             this.panelF12.ResumeLayout(false);
             this.panelF12.PerformLayout();
@@ -1687,6 +1752,12 @@
             this.panelD1.PerformLayout();
             this.panelOemtilde.ResumeLayout(false);
             this.panelOemtilde.PerformLayout();
+            this.panelMouseLeft.ResumeLayout(false);
+            this.panelMouseLeft.PerformLayout();
+            this.panelMouseRight.ResumeLayout(false);
+            this.panelMouseRight.PerformLayout();
+            this.panelMouseMid.ResumeLayout(false);
+            this.panelMouseMid.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1836,5 +1907,11 @@
         private System.Windows.Forms.Panel panelOemtilde;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Panel panelMouseLeft;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelMouseRight;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panelMouseMid;
+        private System.Windows.Forms.Label label2;
     }
 }

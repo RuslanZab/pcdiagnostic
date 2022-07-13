@@ -64,5 +64,37 @@ namespace pcdiagnostic
                 e.IsInputKey = true;
             }
         }
+
+        private void KeyboardTest_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                panelMouseLeft.BackColor = Color.Red;
+            }
+            else if (e.Button == MouseButtons.Right)
+            {
+                panelMouseRight.BackColor = Color.Red;
+            }
+            else if (e.Button == MouseButtons.Middle)
+            {
+                panelMouseMid.BackColor = Color.Red;
+            }
+        }
+
+        private void KeyboardTest_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                panelMouseLeft.BackColor = Color.Yellow;
+            } 
+            else if (e.Button == MouseButtons.Right)
+            {
+                panelMouseRight.BackColor = Color.Yellow;
+            }
+            else if (e.Button == MouseButtons.Middle)
+            {
+                panelMouseMid.BackColor = Color.Yellow;
+            }
+        }
     }
 }
