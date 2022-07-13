@@ -25,12 +25,12 @@ namespace pcdiagnostic
 
         private void KeyboardTest_KeyDown(object sender, KeyEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine(e.KeyData);
             try
             {
                 String panelName = "panel" + e.KeyCode.ToString();
                 var matches = this.Controls.Find(panelName, true);
 
-                System.Diagnostics.Debug.WriteLine(e.KeyValue);
 
                 Panel tempPanel = matches[0] as Panel;
                 tempPanel.BackColor = Color.Red;
@@ -43,6 +43,7 @@ namespace pcdiagnostic
 
         private void KeyboardTest_KeyUp(object sender, KeyEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine(e.KeyData);
             try
             {
                 String panelName = "panel" + e.KeyCode.ToString();
@@ -59,7 +60,7 @@ namespace pcdiagnostic
 
         private void KeyboardTest_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            if (e.KeyData == Keys.Tab)
+            if (e.KeyData == Keys.Tab | e.KeyData == Keys.PrintScreen | e.KeyData == Keys.Up | e.KeyData == Keys.Down | e.KeyData == Keys.Right | e.KeyData == Keys.Left)
             {
                 e.IsInputKey = true;
             }

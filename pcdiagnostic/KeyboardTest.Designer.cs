@@ -172,11 +172,71 @@
             this.label10 = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
             this.panelMouseLeft = new System.Windows.Forms.Panel();
-            this.panelMouseRight = new System.Windows.Forms.Panel();
-            this.panelMouseMid = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panelMouseRight = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.panelMouseMid = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panelPrintScreen = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panelInsert = new System.Windows.Forms.Panel();
+            this.label83 = new System.Windows.Forms.Label();
+            this.panelDelete = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panelScroll = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panelPause = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panelHome = new System.Windows.Forms.Panel();
+            this.label69 = new System.Windows.Forms.Label();
+            this.panelEnd = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panelPageUp = new System.Windows.Forms.Panel();
+            this.label68 = new System.Windows.Forms.Label();
+            this.panelNext = new System.Windows.Forms.Panel();
+            this.panelRight = new System.Windows.Forms.Panel();
+            this.label84 = new System.Windows.Forms.Label();
+            this.panelDown = new System.Windows.Forms.Panel();
+            this.label85 = new System.Windows.Forms.Label();
+            this.panelLeft = new System.Windows.Forms.Panel();
+            this.label86 = new System.Windows.Forms.Label();
+            this.panelUp = new System.Windows.Forms.Panel();
+            this.label87 = new System.Windows.Forms.Label();
+            this.panelNumPad6 = new System.Windows.Forms.Panel();
+            this.label88 = new System.Windows.Forms.Label();
+            this.panelNumPad9 = new System.Windows.Forms.Panel();
+            this.label89 = new System.Windows.Forms.Label();
+            this.panelNumPad5 = new System.Windows.Forms.Panel();
+            this.label90 = new System.Windows.Forms.Label();
+            this.panelNumPad4 = new System.Windows.Forms.Panel();
+            this.label91 = new System.Windows.Forms.Label();
+            this.panelNumPad8 = new System.Windows.Forms.Panel();
+            this.label92 = new System.Windows.Forms.Label();
+            this.panelNumPad7 = new System.Windows.Forms.Panel();
+            this.label93 = new System.Windows.Forms.Label();
+            this.panelMultiply = new System.Windows.Forms.Panel();
+            this.label94 = new System.Windows.Forms.Label();
+            this.panelDivide = new System.Windows.Forms.Panel();
+            this.label95 = new System.Windows.Forms.Label();
+            this.panelNumLock = new System.Windows.Forms.Panel();
+            this.label96 = new System.Windows.Forms.Label();
+            this.panelNumPad3 = new System.Windows.Forms.Panel();
+            this.label97 = new System.Windows.Forms.Label();
+            this.panelNumPad2 = new System.Windows.Forms.Panel();
+            this.label98 = new System.Windows.Forms.Label();
+            this.panelNumPad1 = new System.Windows.Forms.Panel();
+            this.label99 = new System.Windows.Forms.Label();
+            this.panelSubtract = new System.Windows.Forms.Panel();
+            this.label100 = new System.Windows.Forms.Label();
+            this.panelDecimal = new System.Windows.Forms.Panel();
+            this.label101 = new System.Windows.Forms.Label();
+            this.panelNumPad0 = new System.Windows.Forms.Panel();
+            this.label102 = new System.Windows.Forms.Label();
+            this.panelAdd = new System.Windows.Forms.Panel();
+            this.label103 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.label104 = new System.Windows.Forms.Label();
             this.panelF12.SuspendLayout();
             this.panelF8.SuspendLayout();
             this.panelF11.SuspendLayout();
@@ -251,6 +311,36 @@
             this.panelMouseLeft.SuspendLayout();
             this.panelMouseRight.SuspendLayout();
             this.panelMouseMid.SuspendLayout();
+            this.panelPrintScreen.SuspendLayout();
+            this.panelInsert.SuspendLayout();
+            this.panelDelete.SuspendLayout();
+            this.panelScroll.SuspendLayout();
+            this.panelPause.SuspendLayout();
+            this.panelHome.SuspendLayout();
+            this.panelEnd.SuspendLayout();
+            this.panelPageUp.SuspendLayout();
+            this.panelNext.SuspendLayout();
+            this.panelRight.SuspendLayout();
+            this.panelDown.SuspendLayout();
+            this.panelLeft.SuspendLayout();
+            this.panelUp.SuspendLayout();
+            this.panelNumPad6.SuspendLayout();
+            this.panelNumPad9.SuspendLayout();
+            this.panelNumPad5.SuspendLayout();
+            this.panelNumPad4.SuspendLayout();
+            this.panelNumPad8.SuspendLayout();
+            this.panelNumPad7.SuspendLayout();
+            this.panelMultiply.SuspendLayout();
+            this.panelDivide.SuspendLayout();
+            this.panelNumLock.SuspendLayout();
+            this.panelNumPad3.SuspendLayout();
+            this.panelNumPad2.SuspendLayout();
+            this.panelNumPad1.SuspendLayout();
+            this.panelSubtract.SuspendLayout();
+            this.panelDecimal.SuspendLayout();
+            this.panelNumPad0.SuspendLayout();
+            this.panelAdd.SuspendLayout();
+            this.panel17.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelF12
@@ -1462,7 +1552,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(455, 23);
+            this.closeButton.Location = new System.Drawing.Point(759, 32);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 137;
@@ -1479,22 +1569,6 @@
             this.panelMouseLeft.Size = new System.Drawing.Size(78, 24);
             this.panelMouseLeft.TabIndex = 138;
             // 
-            // panelMouseRight
-            // 
-            this.panelMouseRight.Controls.Add(this.label3);
-            this.panelMouseRight.Location = new System.Drawing.Point(279, 317);
-            this.panelMouseRight.Name = "panelMouseRight";
-            this.panelMouseRight.Size = new System.Drawing.Size(78, 24);
-            this.panelMouseRight.TabIndex = 139;
-            // 
-            // panelMouseMid
-            // 
-            this.panelMouseMid.Controls.Add(this.label2);
-            this.panelMouseMid.Location = new System.Drawing.Point(238, 317);
-            this.panelMouseMid.Name = "panelMouseMid";
-            this.panelMouseMid.Size = new System.Drawing.Size(35, 24);
-            this.panelMouseMid.TabIndex = 140;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1504,14 +1578,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Left";
             // 
-            // label2
+            // panelMouseRight
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Mid";
+            this.panelMouseRight.Controls.Add(this.label3);
+            this.panelMouseRight.Location = new System.Drawing.Point(279, 317);
+            this.panelMouseRight.Name = "panelMouseRight";
+            this.panelMouseRight.Size = new System.Drawing.Size(78, 24);
+            this.panelMouseRight.TabIndex = 139;
             // 
             // label3
             // 
@@ -1522,12 +1595,569 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Right";
             // 
+            // panelMouseMid
+            // 
+            this.panelMouseMid.Controls.Add(this.label2);
+            this.panelMouseMid.Location = new System.Drawing.Point(238, 317);
+            this.panelMouseMid.Name = "panelMouseMid";
+            this.panelMouseMid.Size = new System.Drawing.Size(35, 24);
+            this.panelMouseMid.TabIndex = 140;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(24, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mid";
+            // 
+            // panelPrintScreen
+            // 
+            this.panelPrintScreen.Controls.Add(this.label4);
+            this.panelPrintScreen.Location = new System.Drawing.Point(568, 87);
+            this.panelPrintScreen.Name = "panelPrintScreen";
+            this.panelPrintScreen.Size = new System.Drawing.Size(30, 30);
+            this.panelPrintScreen.TabIndex = 141;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "prtsc";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(1, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(20, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "ins";
+            // 
+            // panelInsert
+            // 
+            this.panelInsert.Controls.Add(this.label9);
+            this.panelInsert.Location = new System.Drawing.Point(568, 123);
+            this.panelInsert.Name = "panelInsert";
+            this.panelInsert.Size = new System.Drawing.Size(30, 30);
+            this.panelInsert.TabIndex = 144;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(1, 9);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(21, 13);
+            this.label83.TabIndex = 0;
+            this.label83.Text = "del";
+            // 
+            // panelDelete
+            // 
+            this.panelDelete.Controls.Add(this.label83);
+            this.panelDelete.Location = new System.Drawing.Point(568, 159);
+            this.panelDelete.Name = "panelDelete";
+            this.panelDelete.Size = new System.Drawing.Size(30, 30);
+            this.panelDelete.TabIndex = 144;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "scrlk";
+            // 
+            // panelScroll
+            // 
+            this.panelScroll.Controls.Add(this.label5);
+            this.panelScroll.Location = new System.Drawing.Point(604, 87);
+            this.panelScroll.Name = "panelScroll";
+            this.panelScroll.Size = new System.Drawing.Size(30, 30);
+            this.panelScroll.TabIndex = 91;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(1, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(30, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "paus";
+            // 
+            // panelPause
+            // 
+            this.panelPause.Controls.Add(this.label6);
+            this.panelPause.Location = new System.Drawing.Point(640, 87);
+            this.panelPause.Name = "panelPause";
+            this.panelPause.Size = new System.Drawing.Size(30, 30);
+            this.panelPause.TabIndex = 142;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(1, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(33, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "home";
+            // 
+            // panelHome
+            // 
+            this.panelHome.Controls.Add(this.label8);
+            this.panelHome.Location = new System.Drawing.Point(604, 123);
+            this.panelHome.Name = "panelHome";
+            this.panelHome.Size = new System.Drawing.Size(30, 30);
+            this.panelHome.TabIndex = 143;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(1, 9);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(25, 13);
+            this.label69.TabIndex = 0;
+            this.label69.Text = "end";
+            // 
+            // panelEnd
+            // 
+            this.panelEnd.Controls.Add(this.label69);
+            this.panelEnd.Location = new System.Drawing.Point(604, 159);
+            this.panelEnd.Name = "panelEnd";
+            this.panelEnd.Size = new System.Drawing.Size(30, 30);
+            this.panelEnd.TabIndex = 143;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "pgup";
+            // 
+            // panelPageUp
+            // 
+            this.panelPageUp.Controls.Add(this.label7);
+            this.panelPageUp.Location = new System.Drawing.Point(640, 123);
+            this.panelPageUp.Name = "panelPageUp";
+            this.panelPageUp.Size = new System.Drawing.Size(30, 30);
+            this.panelPageUp.TabIndex = 145;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Location = new System.Drawing.Point(1, 9);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(31, 13);
+            this.label68.TabIndex = 0;
+            this.label68.Text = "pgdn";
+            // 
+            // panelNext
+            // 
+            this.panelNext.Controls.Add(this.label68);
+            this.panelNext.Location = new System.Drawing.Point(640, 159);
+            this.panelNext.Name = "panelNext";
+            this.panelNext.Size = new System.Drawing.Size(30, 30);
+            this.panelNext.TabIndex = 145;
+            // 
+            // panelRight
+            // 
+            this.panelRight.Controls.Add(this.label84);
+            this.panelRight.Location = new System.Drawing.Point(643, 267);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(30, 30);
+            this.panelRight.TabIndex = 148;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(3, 9);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(18, 13);
+            this.label84.TabIndex = 0;
+            this.label84.Text = "→";
+            // 
+            // panelDown
+            // 
+            this.panelDown.Controls.Add(this.label85);
+            this.panelDown.Location = new System.Drawing.Point(607, 267);
+            this.panelDown.Name = "panelDown";
+            this.panelDown.Size = new System.Drawing.Size(30, 30);
+            this.panelDown.TabIndex = 146;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(9, 6);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(13, 13);
+            this.label85.TabIndex = 0;
+            this.label85.Text = "↓";
+            // 
+            // panelLeft
+            // 
+            this.panelLeft.Controls.Add(this.label86);
+            this.panelLeft.Location = new System.Drawing.Point(571, 267);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(30, 30);
+            this.panelLeft.TabIndex = 147;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(3, 9);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(18, 13);
+            this.label86.TabIndex = 0;
+            this.label86.Text = "←";
+            // 
+            // panelUp
+            // 
+            this.panelUp.Controls.Add(this.label87);
+            this.panelUp.Location = new System.Drawing.Point(607, 231);
+            this.panelUp.Name = "panelUp";
+            this.panelUp.Size = new System.Drawing.Size(30, 30);
+            this.panelUp.TabIndex = 149;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(9, 9);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(13, 13);
+            this.label87.TabIndex = 0;
+            this.label87.Text = "↑";
+            // 
+            // panelNumPad6
+            // 
+            this.panelNumPad6.Controls.Add(this.label88);
+            this.panelNumPad6.Location = new System.Drawing.Point(767, 159);
+            this.panelNumPad6.Name = "panelNumPad6";
+            this.panelNumPad6.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad6.TabIndex = 157;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(9, 9);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(13, 13);
+            this.label88.TabIndex = 0;
+            this.label88.Text = "6";
+            // 
+            // panelNumPad9
+            // 
+            this.panelNumPad9.Controls.Add(this.label89);
+            this.panelNumPad9.Location = new System.Drawing.Point(767, 123);
+            this.panelNumPad9.Name = "panelNumPad9";
+            this.panelNumPad9.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad9.TabIndex = 158;
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(9, 9);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(13, 13);
+            this.label89.TabIndex = 0;
+            this.label89.Text = "9";
+            // 
+            // panelNumPad5
+            // 
+            this.panelNumPad5.Controls.Add(this.label90);
+            this.panelNumPad5.Location = new System.Drawing.Point(731, 159);
+            this.panelNumPad5.Name = "panelNumPad5";
+            this.panelNumPad5.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad5.TabIndex = 153;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(9, 9);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(13, 13);
+            this.label90.TabIndex = 0;
+            this.label90.Text = "5";
+            // 
+            // panelNumPad4
+            // 
+            this.panelNumPad4.Controls.Add(this.label91);
+            this.panelNumPad4.Location = new System.Drawing.Point(695, 159);
+            this.panelNumPad4.Name = "panelNumPad4";
+            this.panelNumPad4.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad4.TabIndex = 155;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(9, 9);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(13, 13);
+            this.label91.TabIndex = 0;
+            this.label91.Text = "4";
+            // 
+            // panelNumPad8
+            // 
+            this.panelNumPad8.Controls.Add(this.label92);
+            this.panelNumPad8.Location = new System.Drawing.Point(731, 123);
+            this.panelNumPad8.Name = "panelNumPad8";
+            this.panelNumPad8.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad8.TabIndex = 154;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(9, 9);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(13, 13);
+            this.label92.TabIndex = 0;
+            this.label92.Text = "8";
+            // 
+            // panelNumPad7
+            // 
+            this.panelNumPad7.Controls.Add(this.label93);
+            this.panelNumPad7.Location = new System.Drawing.Point(695, 123);
+            this.panelNumPad7.Name = "panelNumPad7";
+            this.panelNumPad7.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad7.TabIndex = 156;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(9, 9);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(13, 13);
+            this.label93.TabIndex = 0;
+            this.label93.Text = "7";
+            // 
+            // panelMultiply
+            // 
+            this.panelMultiply.Controls.Add(this.label94);
+            this.panelMultiply.Location = new System.Drawing.Point(767, 87);
+            this.panelMultiply.Name = "panelMultiply";
+            this.panelMultiply.Size = new System.Drawing.Size(30, 30);
+            this.panelMultiply.TabIndex = 152;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(9, 9);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(11, 13);
+            this.label94.TabIndex = 0;
+            this.label94.Text = "*";
+            // 
+            // panelDivide
+            // 
+            this.panelDivide.Controls.Add(this.label95);
+            this.panelDivide.Location = new System.Drawing.Point(731, 87);
+            this.panelDivide.Name = "panelDivide";
+            this.panelDivide.Size = new System.Drawing.Size(30, 30);
+            this.panelDivide.TabIndex = 150;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(9, 9);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(12, 13);
+            this.label95.TabIndex = 0;
+            this.label95.Text = "/";
+            // 
+            // panelNumLock
+            // 
+            this.panelNumLock.Controls.Add(this.label96);
+            this.panelNumLock.Location = new System.Drawing.Point(695, 87);
+            this.panelNumLock.Name = "panelNumLock";
+            this.panelNumLock.Size = new System.Drawing.Size(30, 30);
+            this.panelNumLock.TabIndex = 151;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(3, 9);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(27, 13);
+            this.label96.TabIndex = 0;
+            this.label96.Text = "num";
+            // 
+            // panelNumPad3
+            // 
+            this.panelNumPad3.Controls.Add(this.label97);
+            this.panelNumPad3.Location = new System.Drawing.Point(767, 195);
+            this.panelNumPad3.Name = "panelNumPad3";
+            this.panelNumPad3.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad3.TabIndex = 160;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(9, 9);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(13, 13);
+            this.label97.TabIndex = 0;
+            this.label97.Text = "3";
+            // 
+            // panelNumPad2
+            // 
+            this.panelNumPad2.Controls.Add(this.label98);
+            this.panelNumPad2.Location = new System.Drawing.Point(731, 195);
+            this.panelNumPad2.Name = "panelNumPad2";
+            this.panelNumPad2.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad2.TabIndex = 158;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(9, 9);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(13, 13);
+            this.label98.TabIndex = 0;
+            this.label98.Text = "2";
+            // 
+            // panelNumPad1
+            // 
+            this.panelNumPad1.Controls.Add(this.label99);
+            this.panelNumPad1.Location = new System.Drawing.Point(695, 195);
+            this.panelNumPad1.Name = "panelNumPad1";
+            this.panelNumPad1.Size = new System.Drawing.Size(30, 30);
+            this.panelNumPad1.TabIndex = 159;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(9, 9);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(13, 13);
+            this.label99.TabIndex = 0;
+            this.label99.Text = "1";
+            // 
+            // panelSubtract
+            // 
+            this.panelSubtract.Controls.Add(this.label100);
+            this.panelSubtract.Location = new System.Drawing.Point(804, 87);
+            this.panelSubtract.Name = "panelSubtract";
+            this.panelSubtract.Size = new System.Drawing.Size(30, 30);
+            this.panelSubtract.TabIndex = 161;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(9, 9);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(10, 13);
+            this.label100.TabIndex = 0;
+            this.label100.Text = "-";
+            // 
+            // panelDecimal
+            // 
+            this.panelDecimal.Controls.Add(this.label101);
+            this.panelDecimal.Location = new System.Drawing.Point(767, 231);
+            this.panelDecimal.Name = "panelDecimal";
+            this.panelDecimal.Size = new System.Drawing.Size(30, 30);
+            this.panelDecimal.TabIndex = 161;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(9, 9);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(10, 13);
+            this.label101.TabIndex = 0;
+            this.label101.Text = ".";
+            // 
+            // panelNumPad0
+            // 
+            this.panelNumPad0.Controls.Add(this.label102);
+            this.panelNumPad0.Location = new System.Drawing.Point(695, 231);
+            this.panelNumPad0.Name = "panelNumPad0";
+            this.panelNumPad0.Size = new System.Drawing.Size(66, 30);
+            this.panelNumPad0.TabIndex = 162;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(9, 9);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(13, 13);
+            this.label102.TabIndex = 0;
+            this.label102.Text = "0";
+            // 
+            // panelAdd
+            // 
+            this.panelAdd.Controls.Add(this.label103);
+            this.panelAdd.Location = new System.Drawing.Point(804, 123);
+            this.panelAdd.Name = "panelAdd";
+            this.panelAdd.Size = new System.Drawing.Size(30, 66);
+            this.panelAdd.TabIndex = 163;
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(9, 27);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(13, 13);
+            this.label103.TabIndex = 0;
+            this.label103.Text = "+";
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.label104);
+            this.panel17.Location = new System.Drawing.Point(804, 195);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(30, 66);
+            this.panel17.TabIndex = 164;
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(6, 27);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(16, 13);
+            this.label104.TabIndex = 0;
+            this.label104.Text = "↩";
+            // 
             // KeyboardTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 376);
+            this.ClientSize = new System.Drawing.Size(849, 356);
             this.ControlBox = false;
+            this.Controls.Add(this.panel17);
+            this.Controls.Add(this.panelAdd);
+            this.Controls.Add(this.panelNumPad0);
+            this.Controls.Add(this.panelDecimal);
+            this.Controls.Add(this.panelSubtract);
+            this.Controls.Add(this.panelNumPad3);
+            this.Controls.Add(this.panelNumPad6);
+            this.Controls.Add(this.panelNumPad2);
+            this.Controls.Add(this.panelNumPad1);
+            this.Controls.Add(this.panelNumPad9);
+            this.Controls.Add(this.panelNumPad5);
+            this.Controls.Add(this.panelNumPad4);
+            this.Controls.Add(this.panelNumPad8);
+            this.Controls.Add(this.panelNumPad7);
+            this.Controls.Add(this.panelMultiply);
+            this.Controls.Add(this.panelDivide);
+            this.Controls.Add(this.panelNumLock);
+            this.Controls.Add(this.panelUp);
+            this.Controls.Add(this.panelRight);
+            this.Controls.Add(this.panelDown);
+            this.Controls.Add(this.panelLeft);
+            this.Controls.Add(this.panelNext);
+            this.Controls.Add(this.panelPageUp);
+            this.Controls.Add(this.panelEnd);
+            this.Controls.Add(this.panelDelete);
+            this.Controls.Add(this.panelHome);
+            this.Controls.Add(this.panelInsert);
+            this.Controls.Add(this.panelPause);
+            this.Controls.Add(this.panelScroll);
+            this.Controls.Add(this.panelPrintScreen);
             this.Controls.Add(this.panelMouseMid);
             this.Controls.Add(this.panelMouseRight);
             this.Controls.Add(this.panelMouseLeft);
@@ -1758,6 +2388,66 @@
             this.panelMouseRight.PerformLayout();
             this.panelMouseMid.ResumeLayout(false);
             this.panelMouseMid.PerformLayout();
+            this.panelPrintScreen.ResumeLayout(false);
+            this.panelPrintScreen.PerformLayout();
+            this.panelInsert.ResumeLayout(false);
+            this.panelInsert.PerformLayout();
+            this.panelDelete.ResumeLayout(false);
+            this.panelDelete.PerformLayout();
+            this.panelScroll.ResumeLayout(false);
+            this.panelScroll.PerformLayout();
+            this.panelPause.ResumeLayout(false);
+            this.panelPause.PerformLayout();
+            this.panelHome.ResumeLayout(false);
+            this.panelHome.PerformLayout();
+            this.panelEnd.ResumeLayout(false);
+            this.panelEnd.PerformLayout();
+            this.panelPageUp.ResumeLayout(false);
+            this.panelPageUp.PerformLayout();
+            this.panelNext.ResumeLayout(false);
+            this.panelNext.PerformLayout();
+            this.panelRight.ResumeLayout(false);
+            this.panelRight.PerformLayout();
+            this.panelDown.ResumeLayout(false);
+            this.panelDown.PerformLayout();
+            this.panelLeft.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
+            this.panelUp.ResumeLayout(false);
+            this.panelUp.PerformLayout();
+            this.panelNumPad6.ResumeLayout(false);
+            this.panelNumPad6.PerformLayout();
+            this.panelNumPad9.ResumeLayout(false);
+            this.panelNumPad9.PerformLayout();
+            this.panelNumPad5.ResumeLayout(false);
+            this.panelNumPad5.PerformLayout();
+            this.panelNumPad4.ResumeLayout(false);
+            this.panelNumPad4.PerformLayout();
+            this.panelNumPad8.ResumeLayout(false);
+            this.panelNumPad8.PerformLayout();
+            this.panelNumPad7.ResumeLayout(false);
+            this.panelNumPad7.PerformLayout();
+            this.panelMultiply.ResumeLayout(false);
+            this.panelMultiply.PerformLayout();
+            this.panelDivide.ResumeLayout(false);
+            this.panelDivide.PerformLayout();
+            this.panelNumLock.ResumeLayout(false);
+            this.panelNumLock.PerformLayout();
+            this.panelNumPad3.ResumeLayout(false);
+            this.panelNumPad3.PerformLayout();
+            this.panelNumPad2.ResumeLayout(false);
+            this.panelNumPad2.PerformLayout();
+            this.panelNumPad1.ResumeLayout(false);
+            this.panelNumPad1.PerformLayout();
+            this.panelSubtract.ResumeLayout(false);
+            this.panelSubtract.PerformLayout();
+            this.panelDecimal.ResumeLayout(false);
+            this.panelDecimal.PerformLayout();
+            this.panelNumPad0.ResumeLayout(false);
+            this.panelNumPad0.PerformLayout();
+            this.panelAdd.ResumeLayout(false);
+            this.panelAdd.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1913,5 +2603,65 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panelMouseMid;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panelPrintScreen;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panelInsert;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Panel panelDelete;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panelScroll;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panelPause;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panelHome;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Panel panelEnd;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panelPageUp;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Panel panelNext;
+        private System.Windows.Forms.Panel panelRight;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Panel panelDown;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Panel panelLeft;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Panel panelUp;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Panel panelNumPad6;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Panel panelNumPad9;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Panel panelNumPad5;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Panel panelNumPad4;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Panel panelNumPad8;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Panel panelNumPad7;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Panel panelMultiply;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Panel panelDivide;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Panel panelNumLock;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Panel panelNumPad3;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Panel panelNumPad2;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Panel panelNumPad1;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Panel panelSubtract;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Panel panelDecimal;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Panel panelNumPad0;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Panel panelAdd;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Label label104;
     }
 }
