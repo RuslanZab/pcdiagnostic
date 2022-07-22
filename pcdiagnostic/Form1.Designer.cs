@@ -62,6 +62,7 @@
             this.windowsLabel = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.licenseLabel = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCamera)).BeginInit();
             this.SuspendLayout();
             // 
@@ -256,21 +257,21 @@
             // 
             // label69
             // 
-            this.label69.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label69.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(736, 400);
+            this.label69.Location = new System.Drawing.Point(595, 400);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(79, 24);
+            this.label69.Size = new System.Drawing.Size(54, 24);
             this.label69.TabIndex = 22;
-            this.label69.Text = "Network";
+            this.label69.Text = "Wi-Fi";
             // 
             // wifiButton
             // 
-            this.wifiButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.wifiButton.Location = new System.Drawing.Point(699, 436);
+            this.wifiButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.wifiButton.Location = new System.Drawing.Point(573, 433);
             this.wifiButton.Name = "wifiButton";
-            this.wifiButton.Size = new System.Drawing.Size(75, 23);
+            this.wifiButton.Size = new System.Drawing.Size(94, 23);
             this.wifiButton.TabIndex = 23;
             this.wifiButton.Text = "Connect";
             this.wifiButton.UseVisualStyleBackColor = true;
@@ -278,10 +279,10 @@
             // 
             // checkButton
             // 
-            this.checkButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.checkButton.Location = new System.Drawing.Point(780, 436);
+            this.checkButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkButton.Location = new System.Drawing.Point(573, 474);
             this.checkButton.Name = "checkButton";
-            this.checkButton.Size = new System.Drawing.Size(75, 23);
+            this.checkButton.Size = new System.Drawing.Size(94, 23);
             this.checkButton.TabIndex = 24;
             this.checkButton.Text = "Check";
             this.checkButton.UseVisualStyleBackColor = true;
@@ -289,10 +290,10 @@
             // 
             // connectionLabel
             // 
-            this.connectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.connectionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.connectionLabel.AutoSize = true;
             this.connectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.connectionLabel.Location = new System.Drawing.Point(699, 476);
+            this.connectionLabel.Location = new System.Drawing.Point(570, 523);
             this.connectionLabel.Name = "connectionLabel";
             this.connectionLabel.Size = new System.Drawing.Size(13, 17);
             this.connectionLabel.TabIndex = 25;
@@ -300,10 +301,10 @@
             // 
             // bluetoothLabel
             // 
-            this.bluetoothLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.bluetoothLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.bluetoothLabel.AutoSize = true;
             this.bluetoothLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bluetoothLabel.Location = new System.Drawing.Point(699, 507);
+            this.bluetoothLabel.Location = new System.Drawing.Point(747, 439);
             this.bluetoothLabel.Name = "bluetoothLabel";
             this.bluetoothLabel.Size = new System.Drawing.Size(13, 17);
             this.bluetoothLabel.TabIndex = 26;
@@ -311,10 +312,10 @@
             // 
             // label83
             // 
-            this.label83.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label83.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.Location = new System.Drawing.Point(284, 400);
+            this.label83.Location = new System.Drawing.Point(242, 400);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(66, 24);
             this.label83.TabIndex = 28;
@@ -322,8 +323,8 @@
             // 
             // soundButton
             // 
-            this.soundButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.soundButton.Location = new System.Drawing.Point(278, 433);
+            this.soundButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.soundButton.Location = new System.Drawing.Point(236, 433);
             this.soundButton.Name = "soundButton";
             this.soundButton.Size = new System.Drawing.Size(85, 23);
             this.soundButton.TabIndex = 29;
@@ -333,8 +334,8 @@
             // 
             // spotButton
             // 
-            this.spotButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.spotButton.Location = new System.Drawing.Point(485, 434);
+            this.spotButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.spotButton.Location = new System.Drawing.Point(409, 434);
             this.spotButton.Name = "spotButton";
             this.spotButton.Size = new System.Drawing.Size(92, 23);
             this.spotButton.TabIndex = 30;
@@ -344,10 +345,10 @@
             // 
             // label84
             // 
-            this.label84.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label84.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label84.AutoSize = true;
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.Location = new System.Drawing.Point(494, 400);
+            this.label84.Location = new System.Drawing.Point(418, 400);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(71, 24);
             this.label84.TabIndex = 31;
@@ -355,6 +356,7 @@
             // 
             // keyboardButton
             // 
+            this.keyboardButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.keyboardButton.Location = new System.Drawing.Point(32, 433);
             this.keyboardButton.Name = "keyboardButton";
             this.keyboardButton.Size = new System.Drawing.Size(121, 23);
@@ -365,6 +367,7 @@
             // 
             // label68
             // 
+            this.label68.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.Location = new System.Drawing.Point(46, 400);
@@ -406,12 +409,24 @@
             this.licenseLabel.Size = new System.Drawing.Size(0, 13);
             this.licenseLabel.TabIndex = 35;
             // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(746, 400);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(89, 24);
+            this.label11.TabIndex = 36;
+            this.label11.Text = "Bluetooth";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(884, 661);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.licenseLabel);
             this.Controls.Add(this.windowsLabel);
             this.Controls.Add(this.label10);
@@ -491,6 +506,7 @@
         private System.Windows.Forms.Label windowsLabel;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label licenseLabel;
+        private System.Windows.Forms.Label label11;
     }
 }
 

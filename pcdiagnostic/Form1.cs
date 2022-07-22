@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Media;
 using NativeWifi;
 using System.Text;
+using System.Net.NetworkInformation;
 
 namespace pcdiagnostic
 {
@@ -94,6 +95,32 @@ namespace pcdiagnostic
 
         private void CheckNetworkStatus()
         {
+            try
+            {
+                Ping p1 = new Ping();
+                PingReply pr = p1.Send("8.8.8.8");
+
+                if (pr.Status.ToString().Equals("Success"))
+                {
+                    connectionLabel.Text = "Wi-Fi Connected";
+                    connectionLabel.ForeColor = Color.Green;
+                }
+                else
+                {
+                    connectionLabel.Text = "Wi-Fi Disconnected";
+                    connectionLabel.ForeColor = Color.Red;
+                }
+            }
+            catch (Exception error)
+            {
+                System.Diagnostics.Debug.WriteLine(error);
+                connectionLabel.Text = "Wi-Fi Error";
+                connectionLabel.ForeColor = Color.Red;
+            }
+
+            
+
+            /*
             foreach (WlanClient.WlanInterface wlanIface in client.Interfaces)
             {
                 try
@@ -117,6 +144,7 @@ namespace pcdiagnostic
                 
                 
             }
+            */
         }
 
         private void wifiButton_Click(object sender, EventArgs e)
